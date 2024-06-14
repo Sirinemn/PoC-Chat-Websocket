@@ -55,6 +55,11 @@ async function findAndDisplayConnectedUsers() {
     const connectedUsersResponse = await fetch('/users');
     let connectedUsers = await connectedUsersResponse.json();
     connectedUsers = connectedUsers.filter(user => user.nickName !== nickname);
+    if (!admin) {
+        connectedUsers = connectedUsers.filter(user => user.admin === true);
+    } else {
+         connectedUsers = connectedUsers.filter(user => user.admin !== true);
+    }
     const connectedUsersList = document.getElementById('connectedUsers');
     connectedUsersList.innerHTML = '';
 
