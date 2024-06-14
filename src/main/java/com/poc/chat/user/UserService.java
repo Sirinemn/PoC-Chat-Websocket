@@ -13,7 +13,6 @@ public class UserService {
 
     public void saveUser(User user) {
         user.setStatus(Status.ONLINE);
-        user.setAdmin(Boolean.FALSE);
         repository.save(user);
     }
 
