@@ -16,23 +16,23 @@ Notifications pour les nouveaux messages .
 3. Technologies utilisées
 
 Backend:
-# SpringBoot 3.x.x
-# Websocket avec Spring Websocket
-# Base de données relationnelle MongoDB
-# Frontend:
-# Javascript (ES6)
-# HTML5
-# CSS3
+* SpringBoot 3.x.x
+* Websocket avec Spring Websocket
+* Base de données relationnelle MongoDB
+* Frontend:
+* Javascript (ES6)
+* HTML5
+* CSS3
 
 4. Installation et configuration
 
-# Clone the repository
+* Clone the repository
 git clone https://github.com/ali-bouali/one-to-one-chat-spring-boot-web-socket
 
-# Change into the project directory
+* Change into the project directory
 cd your-project
 
-# Build the project
+* Build the project
 ./mvnw clean install
 
 5. Exécution et test du POC
