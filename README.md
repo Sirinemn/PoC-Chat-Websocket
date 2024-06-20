@@ -16,11 +16,9 @@ Notifications pour les nouveaux messages .
 
 ## Technologies utilisées
 
-Backend:
 * SpringBoot 3.x.x
 * Websocket avec Spring Websocket
 * Base de données relationnelle MongoDB
-Frontend:
 * Javascript (ES6)
 * HTML5
 * CSS3
