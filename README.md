@@ -26,7 +26,6 @@ Notifications pour les nouveaux messages .
 ## Installation et configuration
 
 * Clone the repository
-git clone https://github.com/ali-bouali/one-to-one-chat-spring-boot-web-socket
 
 * Change into the project directory
 cd your-project
@@ -36,7 +35,7 @@ cd your-project
 
 ## Exécution et test du POC
 
-Accéder à l'interface utilisateur du chat dans un navigateur web.
+Accéder à l'interface utilisateur du chat dans un navigateur web http://localhost:8088/.
 Se connecter avec les identifiants d'un utilisateur.
 Envoyer des messages à un agent du service client.
 Observer la réception des messages et les notifications en temps réel.
